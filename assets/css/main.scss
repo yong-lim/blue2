@@ -30,6 +30,9 @@
   @import url({{ site.data.conf.main.google_font_style_url }});
 {% endif %}
 
+@import url(monokai.css);
+/*@import url(syntax-hilite-autumn.css);*/
+
 @import "colors/scheme";
 @mixin get_scheme($name) {
   @include get_scheme_opt($name, {{ site.data.conf.main.color_scheme_dark }});
