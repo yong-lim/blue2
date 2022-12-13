@@ -15,7 +15,7 @@ $ ssh-keygen -p -f ~/.ssh/_ed255-gitlab
 ### My ssh config
 ```zsh
 # G2K account
-Host github.com-g2k
+Host gh1
    HostName github.com
    User git
    IdentityFile ~/.ssh/
@@ -23,7 +23,7 @@ Host github.com-g2k
    UseKeychain yes
 
 # personal account
-Host github.com-yong
+Host gh2
    HostName github.com
    User git
    IdentityFile ~/.ssh/
@@ -38,7 +38,6 @@ Host gitlab
    AddKeysToAgent yes
    UseKeychain yes
 ```
-
 
 **Teshing the ssh connections to GitHub**
 
