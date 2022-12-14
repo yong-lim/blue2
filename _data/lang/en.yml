@@ -169,7 +169,7 @@ privacy-policy:
 constants:
   greetings: Hello
   welcome:
-  sample: Sample
+# Yong  sample: This is a sample notes.
 
 # for cookie consent
 cookie_consent:
