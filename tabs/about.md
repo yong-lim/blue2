@@ -34,9 +34,8 @@ img: ":about.jpg"
 #published: false
 ---
 
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+## Hello,
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
-
-{{ website_info_text_second }}
+This is a personal notes. I use this to record my experience in getting Jekyll working
+with GitHub. Also GitHub changed their authentication process from allowing https to ssh
+and access token.
