@@ -36,8 +36,7 @@ img: ":home-heading.jpg"
 ---
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
+## Hello,
+This is a personal notes from my trial of using ssh, github with Jekyll.
 
-{%- include util/auto-content-generator.liquid -%}
-{{ website_info_text_first }}
 
-{{ website_info_text_second }}
