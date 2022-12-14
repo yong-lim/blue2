@@ -9,7 +9,9 @@
     <div class="side-nav-brand">
       {% include multi_lng/get-page-by-layout.liquid layout = 'home' -%}
       {% if site.data.conf.main.side_nav_profile_img_path -%}
-        <img src="{{ site.baseurl }}{{ site.data.conf.main.side_nav_profile_img_path }}" alt="">
+        <a class="side-nav-brand" href="{{ site.baseurl }}{{ layout_page_obj.url }}" translate="no">
+          <img src="{{ site.baseurl }}{{ site.data.conf.main.side_nav_profile_img_path }}" alt="">
+        </a>
       {% endif -%}
       <div class="brand-holder">
         {% if site.data.conf.main.side_nav_brand_text_enable -%}
@@ -50,3 +52,4 @@
   </div>
   {%- include default/nav/navigation-side-nav-bottom-buttons.html -%}
 </nav>
+
