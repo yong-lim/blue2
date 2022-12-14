@@ -53,10 +53,14 @@ layout: default
       </a>
     </li>
   {% endfor -%}
+  {% if lng_pages.size > site.data.conf.others.home.new_posts_count_limit %}
+    <br>
     <li>
       {%- include multi_lng/get-page-by-layout.liquid layout = 'archives' -%}
       <a href="{{ site.baseurl }}{{ layout_page_obj.url }}">{{ site.data.lang[lng].home.new_posts_show_more_button }}</a>
     </li>
+  {% endif %}
   </ul>
 </div>
 {% endif -%}
+
