@@ -34,8 +34,6 @@ img: ":home-heading.jpg"
 # don't forget that this is root index.html. If you disable this, there will be no index.html page to open
 #published: false
 ---
-
-{%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 ## Hello,
 This is a personal notes from my trial of using ssh, github with Jekyll.
 
