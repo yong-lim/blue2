@@ -61,8 +61,11 @@ kramdown:
 # Plugins (Plugins supported by GitHub Pages https://pages.github.com/versions/)
 ###########################################################
 plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-spaceship
 
 # since GitHub Pages runs jekyll with "--safe" flag, we need to add supported plugins in here. (only github supported plugins are allowed)
 whitelist:

@@ -8,6 +8,12 @@ source "https://rubygems.org"
 #   gem "jekyll-paginate", "~> 1.1.0"
 #   gem "jekyll-redirect-from", "~> 0.16.0"
 # end
+group :jekyll_plugins do
+  gem 'jekyll-seo-tag', '~> 2.1'
+  gem 'jekyll-paginate', '~> 1.1'
+  gem "jekyll-redirect-from", "~> 0.16.0"
+  gem 'jekyll-spaceship', '~> 0.10.2'
+end
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -26,3 +32,4 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 
 # HTTP server for local tests
 gem "webrick", "~> 1.7"
+
